@@ -12,7 +12,7 @@ function App() {
   const [products, setProducts] = useState([]);
 
   // Custom hook
-  const { data: items } = useFetch(url);
+  const { data: items, httpConfig } = useFetch(url);
 
   const [name, setName] = useState("");
   const [color, setColor] = useState("");
@@ -39,18 +39,21 @@ function App() {
       price,
     };
 
-    const res = await fetch(url, {
-      method: "Post",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(product),
-    });
+    // const res = await fetch(url, {
+    //   method: "Post",
+    //   headers: {
+    //     "Content-Type": "application/json",
+    //   },
+    //   body: JSON.stringify(product),
+    // });
 
-    // Carregamento dinâmico
-    const addedProduct = await res.json();
+    // // Carregamento dinâmico
+    // const addedProduct = await res.json();
 
-    setProducts((prevProducts) => [...prevProducts, addedProduct]);
+    // setProducts((prevProducts) => [...prevProducts, addedProduct]);
+
+    // Refatorando post
+    httpConfig(product, "POST");
     
     setName("");
     setColor("");

@@ -53,6 +53,12 @@
       "color": "blue",
       "price": "3",
       "id": 9
+    },
+    {
+      "name": "Cooler",
+      "color": "Red",
+      "price": "100",
+      "id": 10
     }
   ]
 }
