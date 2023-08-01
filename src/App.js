@@ -6,7 +6,7 @@ function App() {
     <div className="App">
      <h2>Requisição HTTP</h2>
     </div> 
-  );   
+  );    
 }
 
 export default App;
