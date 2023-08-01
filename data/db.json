@@ -5,7 +5,7 @@
       "name": "Teclado",
       "price": 99.9
     },
-    {
+    { 
       "id": 2,
       "name": "Mouse",
       "price": 30
@@ -14,6 +14,6 @@
       "id": 3,
       "name": "Monitor",
       "price": 499.9
-    }
+    } 
   ]
 }
