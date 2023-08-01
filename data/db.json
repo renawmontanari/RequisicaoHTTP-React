@@ -6,7 +6,7 @@
       "color": "Black",
       "price": 99.9
     },
-    { 
+    {
       "id": 2,
       "name": "Mouse Pad",
       "color": "Blue",
@@ -17,6 +17,42 @@
       "name": "Monitor Gamer",
       "color": "White",
       "price": 499.9
-    } 
+    },
+    {
+      "name": "Notebook",
+      "color": "blue",
+      "price": "3456",
+      "id": 4
+    },
+    {
+      "name": "Mouse",
+      "color": "White",
+      "price": "67",
+      "id": 5
+    },
+    {
+      "name": "Teclado",
+      "color": "Yellow",
+      "price": "34",
+      "id": 6
+    },
+    {
+      "name": "Cooler",
+      "color": "White",
+      "price": "11",
+      "id": 7
+    },
+    {
+      "name": "Cooler",
+      "color": "Yellow",
+      "price": "7",
+      "id": 8
+    },
+    {
+      "name": "Cooler",
+      "color": "blue",
+      "price": "3",
+      "id": 9
+    }
   ]
 }
