@@ -2,17 +2,20 @@
   "products": [
     {
       "id": 1,
-      "name": "Teclado",
+      "name": "Teclado Gamer",
+      "color": "Black",
       "price": 99.9
     },
     { 
       "id": 2,
-      "name": "Mouse",
+      "name": "Mouse Pad",
+      "color": "Blue",
       "price": 30
     },
     {
       "id": 3,
-      "name": "Monitor",
+      "name": "Monitor Gamer",
+      "color": "White",
       "price": 499.9
     } 
   ]
