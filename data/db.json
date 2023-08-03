@@ -89,6 +89,36 @@
       "color": "White",
       "price": "90",
       "id": 15
+    },
+    {
+      "name": "Cooler",
+      "color": "White",
+      "price": "90",
+      "id": 16
+    },
+    {
+      "name": "Cooler",
+      "color": "Yellow",
+      "price": "100",
+      "id": 17
+    },
+    {
+      "name": "Cooler",
+      "color": "Green",
+      "price": "56",
+      "id": 18
+    },
+    {
+      "name": "Cooler",
+      "color": "Green",
+      "price": "56",
+      "id": 19
+    },
+    {
+      "name": "Cooler",
+      "color": "Red",
+      "price": "99",
+      "id": 20
     }
   ]
 }
