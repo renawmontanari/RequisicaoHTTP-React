@@ -12,7 +12,7 @@ function App() {
   const [products, setProducts] = useState([]);
 
   // Custom hook
-  const { data: items, httpConfig } = useFetch(url);
+  const { data: items, httpConfig, loading } = useFetch(url);
 
   const [name, setName] = useState("");
   const [color, setColor] = useState("");
@@ -63,13 +63,17 @@ function App() {
   return (
     <div className="App">
      <h2>Lista de Produtos</h2>
-     <ul>
-      {items && items.map((product) => (
-        <li key={product.id}>
-          {product.name} - Cor: {product.color} - R$: {product.price}
-        </li>
-      ))}
-     </ul>
+     {/* Loading */}
+     {loading && <p>Carregando dados...</p>}
+     {!loading && (
+        <ul>
+        {items && items.map((product) => (
+          <li key={product.id}>
+            {product.name} - Cor: {product.color} - R$: {product.price}
+          </li>
+        ))}
+       </ul>
+     )}
      <div className="add__product">
         <form onSubmit={handleSubmit}>
 
