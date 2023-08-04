@@ -60,6 +60,11 @@ function App() {
     setPrice("");
   };
 
+  // Desafio 6
+  const handleRemove = (id) => {
+    httpConfig(id, "DELETE");
+  };
+
   return (
     <div className="App">
      <h2>Lista de Produtos</h2>
